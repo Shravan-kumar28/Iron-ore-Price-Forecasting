@@ -1,3 +1,4 @@
+joblib
 pandas
 numpy
 streamlit
@@ -5,6 +6,5 @@ matplotlib
 seaborn 
 sklearn
 tensorflow
-joblib
 random
 sqlalchemy
