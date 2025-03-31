@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
+os.system("pip install joblib")
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import random
