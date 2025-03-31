@@ -2,9 +2,15 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import os
-os.system("pip install joblib")
+import subprocess
+
+# Ensure joblib is installed
+try:
+    import joblib
+except ModuleNotFoundError:
+    subprocess.call(["pip", "install", "joblib"])
+    import joblib  # Try importing again
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import random
